@@ -1,5 +1,4 @@
-
-
+import React from "react";
 
 
 
@@ -12,12 +11,13 @@ const Navbar = () =>{
       </div>
     <ul>
       <li href="#">HOME</li>
-      <li href="#">LOCATION</li>
+      <li href="#"> LOCATION</li>
       <li href="#">ABOUT</li>
       <li href="#">CONTACT</li>
     </ul>
     <button>LOGIN</button>
     </nav>
+   
     </div>
   );
 

@@ -26,10 +26,10 @@ button{
 .container{
   max-width: 1280px;
   margin:0 auto;
+
 }
 
 nav{
-
   display: flex;
   justify-content: space-between;
   height: 72px;
@@ -99,7 +99,7 @@ nav img{
   gap: 16px;
 }
 
-.content .content-1 .Shopping .brand-icon{
+.content .content-1 .Shopping .brand-icon a img{
   width: 50px;
   height: 50px;
 
@@ -108,4 +108,9 @@ nav img{
 .content .content-2 img{
   width: 850px;
   height: 880px;
+}
+
+@media only screen and (max-width: 600px){
+  
+  
 }
